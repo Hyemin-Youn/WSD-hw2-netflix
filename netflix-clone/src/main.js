@@ -7,7 +7,6 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 // FontAwesome 설정
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faAngleLeft, faAngleRight, faHeart, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 
 // 필요한 아이콘 추가
