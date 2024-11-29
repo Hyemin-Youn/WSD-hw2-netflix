@@ -1,24 +1,17 @@
 <template>
-  <div id="app">
-    <Navbar />
-    <router-view />
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import '@fortawesome/fontawesome-free/css/all.css';
-import Banner from './components/Banner.vue'; // 예시
-import Home from './views/Home.vue';
+import HelloWorld from './components/HelloWorld.vue'
 
-
-/* eslint-disable */
 export default {
+  name: 'App',
   components: {
-    Banner,
-    Home,
+    HelloWorld
   }
-};
-
+}
 </script>
 
 <style>
@@ -28,14 +21,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
+  margin-top: 60px;
 }
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
-}
-
-
 </style>
