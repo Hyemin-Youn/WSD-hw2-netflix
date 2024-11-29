@@ -11,6 +11,7 @@ class="logo"
 
       <ul class="nav-links">
         <li>
+          </li>
 <router-link to="/home">
 홈
 </router-link>
@@ -25,7 +26,6 @@ class="logo"
         @click="logout"
       />
       >
->>>>>>> main
     </div>
   </nav>
 </template>
