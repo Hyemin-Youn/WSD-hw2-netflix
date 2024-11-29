@@ -1,6 +1,7 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import SliderContent from '../components/SliderContent.vue';
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 const routes = [
   { 
@@ -17,9 +18,6 @@ const routes = [
   
 ];
 
-const router = createRouter({
-  history: createWebHashHistory(),
-  routes,
-});
-
 export default router;
+
+
